@@ -6,79 +6,101 @@
 
 <head>
 
-    <meta charset="utf-8"/>
+<meta charset="utf-8"/>
 
-    <title>Willkommen 
-    </title>
+    <title>Willkommen</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@200&display=swap" rel="stylesheet"> 
+
+    <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
+
 
 
 
 </head>
 
 <body>
-  <header>
-    <h1>David Unger</h1>
+  <div class="layout-grid">
+    <header class=grid-header>
+      
 
-    <nav>
-            <ul>
-            
-            
-            <a href="#contact"><li>Contact</li></a>
-            <a href="#biography"><li>Biography</li></a>
-            
-            </ul>
+       <nav class="grid-nav">
+         <h1 class="h1-name">David Unger</h1>
+                
+                <ul class="nav-list">
+                
+                    
 
-    </nav>
-</header>
-<main>
-    <section>
-       <img src="images/50588150.jpg" alt="Profilbild David Unger"/>
-        <p>Foto von David Unger</p>
-    </section>
+                     <li class="list-elem"><a class="link-contact" href=#contact>Contact</a></li></a>
+                     <li class="list-elem"><a class="link-contact" href=#biography>Biography</a></li></a>
+            
+                </ul>
+
+             <img class="image1"src="images/50588150.jpg" alt="Profilbild David Unger"/>
+            <p class="photo-info">Photo of David Unger</p>
+        </nav>
+         
+    </header>    
+  
+    
+
+    <main class="grid-main">
+    
+
+
+
     
     <section>
-        <h2>Contact</h2>
-            <p>Phone 01231234567</p>
-            <a href="mailto:owntoomanymonster@googlemail.com">Email me!</a>
+        <h2 class="h2-general" id="contact">Contact</h2>
+            <p class="phone-para">Phone 0123/1234567</p>
+            <a class="mail-link" href="mailto:owntoomanymonster@googlemail.com">Email me</a>
            
 
     </section>
-        <h2>Interest</h2>
+        <h2 class="h2-general" >Interest</h2>
+        <p>Iam a passionated diver and diving means more to me than just an ordinary hobby. </p>
         
     
     <section>
-        <h2>SocialMedia</h2>
-            <div> GitHub </div>
-            <div> Codepen </div>
-            <div> LinkedIn</div>
-
-    </section>
-     <h2>About myself</h2>
-        <p>Lorem Ipsum</p>
+        <h2 class="h2-general" >SocialMedia</h2>
+            
+        
+        <div class="icon1"> 
+            <i class="icon lni lni-github"></i>           
+         </div>
+            
+        <div class="icon1"> 
+            <i class="lni lni-codepen"></i>
+        </div>
+                
+        <div class="icon1"> 
+            <i class="lni lni-linkedin-original"></i>
+        </div>
 
     </section>
     <section>
-        <ul>
-            <li>blabla</li>
-            <li>blabla</li>
-            <li>blabla</li>
-
-        </ul>
+     <h2 class="h2-general" >About myself</h2>
+        <p>Hi, iam David a 38 years old guy from Düsseldorf. I am happy to share some Infos about me.</p>
 
     </section>
-  <aside></aside>
-</main>
+    <section>
+        <h2 class="h2-general"  id="biography">Curriculum Vitae</h2>
+         <ul>
+            
+            <li>University of applied science Düsseldorf BBA Business Administration</li>
+            <li>Handelskammer Düsseldorf Specialist Insurance and Finance</li>
+            <li>Microsoft Certified Trainer</li>
 
-<footer>made with web technology</footer>
+         </ul>
 
+    </section>
+  
+    </main>
+
+    <footer class="grid-footer">made with web technology</footer>
+  </div>
 </body>
-
-
-
-
-
-
-
 
 
 </html>
