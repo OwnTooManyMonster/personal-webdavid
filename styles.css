@@ -165,12 +165,12 @@ body
 {
     display:grid;
     grid-template-rows: 550px 950px 100px;
-
+    grid-template-columns: ;
 }
 .grid-header
 
 {
-
+    grid-column: 2/3;
     grid-row: 1/3;
 }
 
@@ -188,7 +188,7 @@ body
 .grid-footer
 
 {
-    
+    grid-column: 2/3;
     grid-row: 3/3;
     text-align: center ;
 
